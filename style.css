@@ -1,0 +1,94 @@
+body{
+  margin: 0;
+   overflow-x: hidden;
+  }
+
+li:hover {
+  background: rgb(146, 168, 170);
+  }
+
+.index-image {
+  background: rgb(146, 168, 170);
+  }
+
+#picBlock {
+  width: 14.5rem;
+  height: auto;
+  margin: 0.4rem;
+  border-radius: 4px;
+  }
+
+#fullscr {
+  width: 100%;
+  heigth: 100%;
+  background: rgba(0, 120, 201, 0.2);
+  display: block;
+  position: absolute;
+  z-index: 99999;
+  }
+
+#slogan {
+  font-size: 1.5em;
+  color: whitesmoke;
+  }
+
+#text {
+  font-size: 1.2em;
+  color: whitesmoke;
+  margin: 1rem 1rem;
+  }
+
+#main {
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  }
+
+/* Меню бургер */
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  }
+
+ul {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  }
+
+ul a {
+  margin-left: 10px;
+  }
+
+
+@media (max-width:640px) {
+  .menu {
+    display: none;
+  }
+  
+  .trigger {
+    display: inline-block;
+    margin: 3px;
+    cursor: pointer;
+  }
+  
+  .trigger i {
+    display: block;
+    width: 30px;
+    height: 6px;
+    margin: 4px auto;
+    background: #222;
+  }
+  
+  .show {
+    display: block;
+  }
+  
+  #picBlock {
+  width: 90%;
+  margin: 5px 0;
+  }
+ }
